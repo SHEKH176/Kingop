@@ -9,8 +9,8 @@ attack_in_progress = False
 current_attack = None  # Store details of the current attack
 attack_history = []  # Store attack logs
 
-TELEGRAM_BOT_TOKEN = '8058370192:AAErXXSNYFnjjQrNNTKVV37dpuHX1r35a3U'  # Replace with your bot token
-ADMIN_USER_ID = 1240179115
+TELEGRAM_BOT_TOKEN = '7734142774:AAF97fcq-1G9LfFa5kT4_KRyqsbfUCx42fM'  # Replace with your bot token
+ADMIN_USER_ID = 6607682618
 MONGO_URI = "mongodb+srv://Kamisama:Kamisama@kamisama.m6kon.mongodb.net/"
 DB_NAME = "legxninja"
 COLLECTION_NAME = "users"
@@ -49,7 +49,7 @@ async def start(update: Update, context: CallbackContext):
         "*⚠️ Kaise Use Kare? ⚠️*\n"
         "*Commands ka use karo aur commands ka pura list dekhne ke liye type karo: /help*\n\n"
         "*💬 Queries or Issues? 💬*\n"
-        "*Contact Admin: @NINJAGAMEROP*"
+        "*Contact Admin: @ABSARSHEKH*"
     )
     await context.bot.send_message(chat_id=chat_id, text=message, parse_mode='Markdown')
 
